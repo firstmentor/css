@@ -1,0 +1,45 @@
+.bodybgcolor {
+
+	background-color: lightblue;
+      }
+
+.bodybgimage {
+	 background-image: url(222.jpg);
+      }
+
+.background-repeat {
+	 background-image: url(222.jpg);
+	 background-repeat: no-repeat;
+	 
+	 background-repeat: repeat-x;
+	 background-repeat: repeat-y;
+	 background-repeat: repeat;
+      }   
+
+
+.background-position {
+	 background-image: url(222.jpg);
+	 background-repeat: no-repeat;
+	 background-position: right top;
+      } 
+.background-attachment {
+
+	 background-image: url(222.jpg);
+	 background-repeat: no-repeat;
+	 background-position:right top;
+	 background-attachment: fixed;
+      } 
+
+
+div
+       {
+       	height: 300px;
+       	width: 400px;
+       	background-color: tomato;
+       	border:2px solid red;
+       	float: left;
+       }
+
+h1{background-color: purple;}
+p{color: red;}
+div{background-color: pink;}

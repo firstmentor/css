@@ -1,0 +1,50 @@
+.bodybgcolor {
+
+	background-color: lightblue;
+      }
+
+.bodybgimage {
+	 background-image: url(222.jpg);
+	 border: 5px solid black;
+     padding: 35px;
+	 background-size:;
+	 background-origin:content-box; /*content-box/padding-box(default)*/
+	 background-repeat: no-repeat;
+      }
+
+.background-repeat {
+	 background-image: url(222.jpg);
+	 background-repeat: no-repeat;
+	 
+	 background-repeat: repeat-x;
+	 background-repeat: repeat-y;
+	 background-repeat: repeat;
+      }   
+
+
+.background-position {
+	 background-image: url(222.jpg);
+	 background-repeat: no-repeat;
+	 background-position: right top;
+      } 
+.background-attachment {
+
+	 background-image: url(222.jpg);
+	 background-repeat: no-repeat;
+	 background-position:right top;
+	 background-attachment: fixed;
+      } 
+
+
+.background-clip {
+    border: 9px dotted ;
+    
+    border-color: blue;
+    padding:35px;
+    background: yellow;
+    background-clip: padding-box;
+
+  
+   
+   
+}

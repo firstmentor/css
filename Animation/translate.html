@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Translate Animation</title>
+
+	<style type="text/css">
+		
+.translate{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+    /*transition: transform 1s ease-in-out;*/
+      transition: all 1s ease-in-out;
+	}	
+
+.translate:hover{
+    transform: translate(500px,200px);
+    background-color: blue;
+    /*transition: transform 1s ease-in-out;*/
+    transition: all .8s ease-in-out;
+	}
+	</style>
+</head>
+<body bgcolor="#abcdef">
+<h1>Translate Animation </h1>	
+<div class="translate">Translate 500 for x-axis & 200 y-axis</div>
+
+
+</body>
+</html>

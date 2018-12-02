@@ -1,0 +1,99 @@
+.bodycontainer{
+
+    height: 1350px;
+    width: 1330px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 2px;
+	border:1px solid blue;
+}
+
+
+.header {
+	height: 250px;
+	width: 1322px;
+	border:1px solid blue;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+}
+
+.topbar {
+	height: 50px;
+	width: 1314px;
+	border:1px solid blue;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+}
+
+.menu{
+	height: 50px;
+	width: 1322px;
+	border:1px solid blue;
+	margin: 2px;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.bodyblock1{
+	height: 350px;
+	width: 655px;
+	border:1px solid blue;
+	margin-left: 2px;
+	margin-top: 0px;
+	float: left;}
+
+
+.bodyblock2{
+	height: 350px;
+	width: 238px;
+	border:1px solid blue;
+	margin-left: 2px;
+	margin-top: 0px;
+	 float: left;
+     }
+
+.bodyblock3{
+	height: 350px;
+	width: 417px;
+	border:1px solid blue;
+	margin-left: 2px;
+	margin-top: 0px;
+	float: left;}
+
+.movediv{
+	height: 150px;
+	width: 1322px;
+	border:1px solid blue;
+	margin-left: 2px;
+	margin-top: 2px;
+	 float: left;
+     }
+
+.fulldiv{
+	height: 350px;
+	width: 1322px;
+	border:1px solid blue;
+	margin-left: 2px;
+	margin-top: 2px;
+	 float: left;
+     }
+
+.fulldivblock1{
+	height: 344px;
+	width: 326px;
+	border:1px solid blue;
+	margin-left: 2px;
+	margin-top: 2px;
+	 float: left;
+     }
+
+
+.footer   {
+	height: 174px;
+	width: 1322px;
+	border:1px solid blue;
+	margin-left: 2px;
+	margin-top: 2px;
+    float:left;

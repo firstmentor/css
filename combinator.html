@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+div > p {background-color: yellow;}
+div {background-color: lightblue;}
+div +h2{background-color: pink;}
+div ~h2{background-color: pink;}
+
+</style>
+</head>
+<body>
+
+<div>
+  <h2>Descendant Selector</h2>
+  <p>Hello Div</p>
+  <h2>Hello Div</h2>
+  <p>Hello Div</p>
+  <span><p>Hello selectors</p></span>
+</div><hr>
+
+  <h2>Child Selector</h2>
+  <div>
+  <p>Hello Div</p>
+  <span><p>Hello selectors</p></span>
+  <p>Hello Div</p>
+  <p>Hello Div</p>
+</div><hr>
+
+  <h2>Adjacent Sibling Selector</h2>
+  <div>
+  <p>Hello Div</p>
+  <h2>Hello Div</h2>
+  <p>Hello Div</p>
+</div><hr>
+
+  <h2>General Sibling Selector</h2>
+  <div>
+  <p>Hello Div</p>
+  <span>hi</span>
+  <p>Hello Div</p>
+  <p>Hello Div</p>
+</div><hr>
+</body>
+</html>

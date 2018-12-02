@@ -1,0 +1,27 @@
+p.margin1 {
+	 margin:80px;
+	 border:2px solid blue;
+	 text-align: center;
+	 }
+
+p.margin2 {
+    margin-top: 210px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 10px;
+	border:2px solid blue;
+	text-align: center;
+
+    }
+
+p.margin3 {
+    margin: 100px 10px;
+    	 border:2px solid blue;
+    	  }
+
+p.margin4 {
+	  height: 50px;
+	  width: 300px;
+      margin:auto;
+      border:2px solid blue;
+          }

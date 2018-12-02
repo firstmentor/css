@@ -1,0 +1,67 @@
+#outerbox
+{
+width: 700px;
+overflow: hidden;
+border-radius: 2px;
+border:2px solid #ddd;
+outline-style: double;
+outline-offset: 5px;
+outline-color: blue;
+background-color: pink;
+}
+
+#sliderbox
+{
+position: relative;
+width: 3500px;  
+animation-name:slider;
+animation-duration: 20s;  
+}
+
+#sliderbox img
+{
+    float: left;
+}
+
+@keyframes slider
+{
+    0%
+    {
+    left: 0px;
+    }
+    20%
+    {
+     left: 0px;
+    }
+    25%
+    {
+    left:-700px;    
+    }
+    45%
+    {
+    left:-700px;     
+    }
+    50%
+    {
+    left: -1400px;    
+    }
+    70%
+    {
+    left: -1400px;    
+    }
+    75%
+    {
+    left: -2100px;
+    }
+    95%
+    {
+    left: -2100px;    
+    }
+    100%
+    {
+    left: -2800px;    
+    }
+
+
+}
+

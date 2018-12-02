@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+    #object{
+    	width: 200px;
+    	height: 200px;
+    	background-color: #353535;
+    	line-height: 200px;
+    	color: #fff;
+    	font-family: verdana;
+    	font-size: 18px;
+        margin-top: 200px;
+        margin-left: 200px;
+    	text-align: center;
+    	float: left;
+    	animation-name: pn;
+        animation-delay: .0.5s;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite; 
+        animation-direction: alternate;
+        animation-play-state:running;
+           }
+
+    @keyframes pn{
+    	0%{border-radius: 0px;}
+        10%{background-color: #dff;border-radius: 50%;}
+    	30% {background-color: yellow;}
+        60% {background-color: blue;}
+        80% {background-color: powderblue;}
+        100%{
+           border-radius: 50%;
+    	   background-color: #f00;
+    	   font-size: 22px;
+    	   text-shadow: 8px 8px 8px #000;
+           box-shadow: 8px 8px 8px #000;
+    	   transform: rotate(30deg);}
+
+           	
+	</style>
+</head>
+<body bgcolor="black">
+	<div id="object">PN Infosys.in</div>
+	<div id="object">PN Infosys.in</div>
+	<div id="object">PN Infosys.in</div>
+	
+
+	
+</body>
+</html>
